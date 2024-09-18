@@ -498,7 +498,7 @@ nav {
 .footer__container {
   position: relative;
   display: grid;
-  grid-template-columns: 400px repeat(3, 1fr);
+  grid-template-columns: 400px repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -510,6 +510,10 @@ nav {
 .footer__logo {
   max-width: 150px;
   margin-bottom: 2rem;
+}
+
+.footer__col {
+text-align: center;
 }
 
 .footer__col p {
@@ -561,6 +565,9 @@ nav {
   padding: 1rem;
   font-size: 0.8rem;
   color: var(--white);
+
+    text-align: center;
+
 }
 
 @media (width < 900px) {
